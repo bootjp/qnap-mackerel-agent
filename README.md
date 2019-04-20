@@ -1,4 +1,4 @@
-# mackerel-agent installer for QNAP
+# mackerel-agent installer for QNAP (for AMD64)
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
 
@@ -73,3 +73,9 @@ mackerel-agentが暗黙的に作成するデータファイル類(idファイル
 ## AUTHOR
 
 [Songmu](https://github.com/Songmu)
+
+## DEVELOP
+
+1. $GOPATH/src/github.com/mackerelio/mackerel-agent に https://github.com/mackerelio/mackerel-agentをgit clone する
+2. ./author/build.sh
+3. ./author/mkrinst.sh
