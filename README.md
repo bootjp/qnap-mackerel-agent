@@ -6,7 +6,8 @@
 
 ## DESCRIPTION
 
-QNAPにmackerel-agentをインストールして自動起動までやってくれる君です。作者の環境にあわせて、 `GOARM=5` に今のところ決め打ちしてます。
+QNAPにmackerel-agentをインストールして自動起動までやってくれる君です。~~作者の環境にあわせて、 `GOARM=5` に今のところ決め打ちしてます。~~
+
 
 ## USAGE
 
@@ -76,6 +77,6 @@ mackerel-agentが暗黙的に作成するデータファイル類(idファイル
 
 ## DEVELOP
 
-1. $GOPATH/src/github.com/mackerelio/mackerel-agent に https://github.com/mackerelio/mackerel-agentをgit clone する
-2. ./author/build.sh
-3. ./author/mkrinst.sh
+1. `$GOPATH/src/github.com/mackerelio/mackerel-agent` に [mackerelio/mackerel-agent](https://github.com/mackerelio/mackerel-agent)を clone する
+2. `% ./author/build.sh`
+3. `% ./author/mkrinst.sh`
