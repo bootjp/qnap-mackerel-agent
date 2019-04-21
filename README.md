@@ -13,7 +13,7 @@ QNAPにmackerel-agentをインストールして自動起動までやってく�
 
 QNAP上でこのrepositoryをcloneなり、アーカイブをダウンロードなりして、 `make install` するだけです。
 
-    % wget https://github.com/Songmu/qnap-mackerel-agent/archive/master.tar.gz
+    % curl -OL https://github.com/bootjp/qnap-mackerel-agent/archive/master.tar.gz
     % tar xzvf master.tar.gz
     % cd qnap-mackerel-agent-master
     % make install
